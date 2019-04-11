@@ -1,5 +1,4 @@
 const db = require('../data/dbConfig');
-const request = require('supertest');
 const Flowers = require('./flowersModel');
 
 describe('flowersModel', () => {

@@ -13,7 +13,11 @@ async function remove(id) {
     .del();
 }
 
+async function all() {
+  return await db('flowers');
+}
 module.exports = {
+  all,
   insert,
   remove
 };
